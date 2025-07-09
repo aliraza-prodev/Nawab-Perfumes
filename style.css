@@ -278,10 +278,10 @@ footer .copyright-text {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url('assets/main-section.jfif'); /* Replace with your GIF path */
+    background-image: url('assets/Main-HomeHeader.png'); /* Replace with your GIF path */
     background-size: cover;
-    background-position: center;
-    opacity: 0.25; /* Even more subtle opacity */
+    background-position:bottom;
+    opacity: 0.3; /* Even more subtle opacity */
     pointer-events: none;
 }
 .hero-section h1 {
@@ -289,13 +289,14 @@ footer .copyright-text {
     color: var(--gold);
     margin-bottom: 0.75rem;
     text-shadow: 0 0 10px rgba(212, 175, 55, 0.4); /* Subtle glow */
-    z-index: 100;
+    z-index: 150;
+    font-weight: bolder;
 }
 .hero-section h2 {
     font-size: 1.8rem; /* Larger subheading */
     color: var(--light-gray);
     margin-bottom: 3rem;
-    font-weight: 400; /* Regular weight */
+    font-weight: 500; /* Regular weight */
     letter-spacing: 0.02em;
 }
 
@@ -470,7 +471,7 @@ footer .copyright-text {
 }
 .shop-header h1 {
     font-size: 3rem; /* 48px */
-    color: var(--white); /* White heading here for variety */
+    color: var(--gold); /* White heading here for variety */
     text-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
 }
 
@@ -851,9 +852,23 @@ footer .copyright-text {
     text-align: center;
     padding: 100px 0;
 }
+.about-hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 48%;
+    background-image: url('assets/about.jpeg'); /* Replace with your GIF path */
+    background-size: cover;
+    background-position:bottom;
+    opacity: 0.15; /* Even more subtle opacity */
+    pointer-events: none;
+}
 .about-hero h1 {
     font-size: 3.5rem; /* 56px */
     margin-bottom: 20px;
+    
 }
 .about-hero p {
     font-size: 1.25rem; /* 20px */
@@ -982,7 +997,7 @@ footer .copyright-text {
     text-align: center;
     margin-bottom: 60px;
     font-size: 3rem; /* 48px */
-    color: var(--white);
+    color: var(--gold);
     text-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
 }
 .accordion-item {
@@ -1030,7 +1045,7 @@ footer .copyright-text {
 .contact-section h1 {
     margin-bottom: 60px;
     font-size: 3rem; /* 48px */
-    color: var(--white);
+    color: var(--gold);
     text-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
 }
 .contact-form {
